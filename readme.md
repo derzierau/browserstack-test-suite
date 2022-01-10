@@ -8,7 +8,7 @@ All cases are tested on Windows and on Mac OSX.
 
 ```sh
 yarn --frozen-lockfile
-yarn run test
+BROWSERSTACK_USERNAME=*** BROWSERSTACK_PASSWORD=*** yarn run test
 ```
 
 ## Known problems for testing
